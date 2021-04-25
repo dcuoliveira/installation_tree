@@ -1,0 +1,10 @@
+conda create -n dcuoliveiraR r-essentials r-base
+conda activate dcuoliveiraR
+conda install -c r r-irkernel
+y
+conda install -c conda-forge jupyterlab
+y
+conda install r-SimDesign
+conda install r-readXL
+conda install r-dplyr
+conda install r-ggplot
