@@ -1,5 +1,7 @@
-conda create -n dcuoliveiraR r-essentials r-base
+conda create -n dcuoliveiraR
 conda activate dcuoliveiraR
+conda install -c r r=3.6.1
+conda install r-essentials
 conda install -c r r-irkernel
 y
 conda install -c conda-forge jupyterlab
